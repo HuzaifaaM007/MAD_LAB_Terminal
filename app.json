@@ -10,7 +10,15 @@
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffffff",
+      "plugins": [
+        [
+          "expo-location",
+          {
+            "locationAlwaysAndWhenInUsePermission": "Allow $(MyPrayerApp) to use your location."
+          }
+        ]
+      ]
     },
     "ios": {
       "supportsTablet": true
